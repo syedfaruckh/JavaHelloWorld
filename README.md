@@ -7,8 +7,8 @@ This Java file contains the classic Hello World program in Java. Try tinkering w
 4. Based on your knowledge of programming, add the following line before the `System.out.println()`. `String name = "Sam";` Try to get the line to print out what the value of `name` is. Notice that in Java, we need to declare the types of variables.
 
 ## Get user input
-1. Add the line `import java.util.Scanner;` above the HelloWorld class declaration.
-2 Add the following lines lines below `public static void main(String args[]) {`
+1. Add the line `import java.util.Scanner;` above the HelloWorld class declaration. 
+2. Add the following lines lines below `public static void main(String args[]) {`
 ```java
 Scanner sc = new Scanner(System.in);
 String name = sc.getNext();
