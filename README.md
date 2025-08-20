@@ -11,7 +11,7 @@ This Java file contains the classic Hello World program in Java. Try tinkering w
 2. Add the following lines lines below `public static void main(String args[]) {`
 ```java
 Scanner sc = new Scanner(System.in);
-String name = sc.getNext();
+String name = sc.next();
 sc.close();
 ```
 Remove the line `String name = "Sam";`
